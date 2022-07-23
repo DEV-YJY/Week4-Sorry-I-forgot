@@ -1,0 +1,29 @@
+
+
+@media screen and (max-width: 320px)
+{
+ /* On screens that are 320px or less*/
+ body {
+   background-color:green
+   }
+   /* On screens that are 760px or less */
+   @media screen and (max-width: 760px){
+     body {
+       background-color:green
+       }
+   }
+   /* On screens that are 1200px or less*/
+   @media screen and (max-width: 1200px)
+   {
+     body {
+       background-color:green
+       }
+   }
+ }.container {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(4, 1fr);
+ justify-items: center;
+ align-items: stretch;
+ gap: 1rem;
+}

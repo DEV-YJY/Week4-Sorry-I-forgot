@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebf6f5;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+
+.board {  
+  padding: 20px;
+  display: grid;
+  grid-gap: 15px;
+  /* grid-template-columns: 100px 100px 100px; */
+  grid-template-columns: repeat(4, 120px);
+  grid-template-rows: repeat(4, 160px);
+  /* justify-items: center;
+  align-items: stretch;
+  gap: 1rem; */
+}
+
+.panel {
+  padding: 20px;
+  border: 0px;
+  border-right: 2px;
+  border-style: solid;
+  height: 100vh;
+
+ text-align: center;
+
+  margin-right: 10px;
+  color: azure;
+  background-color: rgb(68, 22, 105);
+}
+
+.tile {
+  /* grid-column-start: 0;
+  grid-column-end: 4; */
+  /* width: 100px; */
+  height: 160px;
+  border: 2px;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: #86b4b3;
+  /* background-image: url('images/mindflayer.png'); */
+}
+
+img {
+  width: 120px;
+}
+
+.notFlipped {
+  background-image: url('images/mindflayer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 
+.tile4 {
+  background-color: #5cbdb9;
+}
+.tile5 {
+  background-color: #ebf6f5;
+}
+.tile6 {
+  background-color: #5cbdb9;
+}
+.tile7 {
+  background-color: rgb(102, 35, 156);
+}
+.tile2 {
+  background-color: rgb(102, 35, 156);
+}
+.tile10 {
+  background-color: rgb(102, 35, 156);
+}
+.tile14 {
+  background-color: rgb(102, 35, 156);
+} */
