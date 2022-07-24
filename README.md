@@ -1,28 +1,26 @@
-# A starter webpack project for React
+# Week 3 project: Sorry I forgot
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
+This is a memory card game. 
 
-* Fork this repo
-* Rename your repo according to the app you're building
+- A user can:
+  - Click and view picture on the card.
+  
+  
 
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && npm i
-```
+## Project Screen Shot(s)
 
-To start the development server with a watcher that rebuilds your code, run `npm run dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86042155/180631934-6096238e-fc7a-4439-b924-7f5df4d22ed8.png" alt="drawing" width="300"  align="top"/>
+  <img src="https://user-images.githubusercontent.com/86042155/180631945-f5ac9587-40bb-4c4b-ad63-0e6d46347ef5.png" alt="drawing" width="300" align="top"/>
 
-Additional components should be placed in `client/components`.
+</p>
 
-## Separate client/server
 
-The boilerplate is also set up to host the client using `webpack-dev-server` with hot module reloading etc. To use this method, in one terminal run:
-```sh
-npm run client
-```
-and in the other:
-```sh
-npm run server
-```
-The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports.
+## Reflection
+Initially the team was hoping to build a classic memory card game that allows user to click on a card at a time and get a point if the pair matches. However, the logic to get the game working was a little more complicated than we anticipated and was difficult to achieve within a given time frame. It was discouraging that the team faced a huge roadblocks on the way but the vibe was good and we enjoyed the overall project. Hope each of us learnt something from it :)
 
+## Authors
+- **[YJ You](https://github.com/DEV-YJY)**
+- **[David Benton](https://github.com/dajabe)**
+- **[Harrison Mordecai](https://github.com/Banger66)**
+- **[Callan Pinto](https://github.com/BaTmAnOmOrE)**
